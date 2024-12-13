@@ -3,36 +3,37 @@ import React from 'react';
 const Category = () => {
   const items = [
     {
-      image: 'Images/stone-01.png',
+      image: `${process.env.PUBLIC_URL}/Images/stone-01.png`,
       title: 'Stone 1',
       price: '$50',
     },
     {
-      image: '/Images/stone-02.png',
+      image: `${process.env.PUBLIC_URL}/Images/stone-02.png`,
       title: 'Stone 2',
       price: '$60',
     },
     {
-      image: '/Images/stone-03.png',
+      image: `${process.env.PUBLIC_URL}/Images/stone-03.png`,
       title: 'Stone 3',
       price: '$70',
     },
     {
-      image: '/Images/stone-04.png',
+      image: `${process.env.PUBLIC_URL}/Images/stone-04.png`,
       title: 'Stone 4',
       price: '$80',
     },
     {
-      image: '/Images/stone-05.png',
+      image: `${process.env.PUBLIC_URL}/Images/stone-05.png`,
       title: 'Stone 5',
       price: '$90',
     },
     {
-      image: '/Images/stone-06.png',
+      image: `${process.env.PUBLIC_URL}/Images/stone-06.png`,
       title: 'Stone 6',
       price: '$100',
     }
   ];
+
 
   return (
     <section className="category-section  my-2 p-4">

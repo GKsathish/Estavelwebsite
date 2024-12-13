@@ -7,28 +7,28 @@ import Category from '././Category';
 const Hero = () => {
    const slides = [
       {
-         image: '/Images/stone-01.png', // Correct path to image
-         title: 'Explore Stonepedia',
-         subtitle: 'Your trusted platform for premium stones',
-         buttonText: 'Explore Now',
-         buttonAction: () => window.location.href = '/category', // Example of redirection
+        image: `${process.env.PUBLIC_URL}/Images/stone-01.png`, // Correct path to image
+        title: 'Explore Stonepedia',
+        subtitle: 'Your trusted platform for premium stones',
+        buttonText: 'Explore Now',
+        buttonAction: () => window.location.href = '/category', // Example of redirection
       },
       {
-         image: '/Images/stone-02.png', // Correct path to image
-         title: 'Craftsmanship Redefined',
-         subtitle: 'Elevate your spaces with our unique stones',
-         buttonText: 'Learn More',
-         buttonAction: () => window.location.href = '/category', // Example of redirection
+        image: `${process.env.PUBLIC_URL}/Images/stone-02.png`, // Correct path to image
+        title: 'Craftsmanship Redefined',
+        subtitle: 'Elevate your spaces with our unique stones',
+        buttonText: 'Learn More',
+        buttonAction: () => window.location.href = '/category', // Example of redirection
       },
       {
-         image: '/Images/stone-03.png', // Correct path to image
-         title: 'Quality You Can Trust',
-         subtitle: 'Discover a variety of premium stones',
-         buttonText: 'Get Started',
-         buttonAction: () => window.location.href = '/category', // Example of redirection
+        image: `${process.env.PUBLIC_URL}/Images/stone-03.png`, // Correct path to image
+        title: 'Quality You Can Trust',
+        subtitle: 'Discover a variety of premium stones',
+        buttonText: 'Get Started',
+        buttonAction: () => window.location.href = '/category', // Example of redirection
       },
-   ];
-
+    ];
+    
    // Slick carousel settings
    const settings = {
       dots: true, // Enable dots for pagination
